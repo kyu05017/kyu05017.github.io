@@ -1,1 +1,1 @@
-# kyu05017-kyu05017.github.io
+# kyu05017.github.io
