@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello World!
+성실한 개발자 김규석입니다.
 categories: [general, setup, demo]
 tags: [demo, dbyll, dbtek, setup]
 fullview: true
