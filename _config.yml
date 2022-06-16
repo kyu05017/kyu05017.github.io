@@ -7,14 +7,14 @@ highlighter: rouge
 markdown: kramdown
 disqus: dbyll
 google_analytics: dbyll
-title: dbyll
+title: 개발자김규석
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: 개발자김규석
 
 description: Stylish Jekyll Theme
 author:
