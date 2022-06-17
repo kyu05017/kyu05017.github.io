@@ -1,6 +1,6 @@
 ---
 layout: post
-title : 성실한 개발자 김규석입니다.
+title : About Me
 categories: [general, setup, demo]
 tags: [demo, dbyll, dbtek, setup]
 fullview: true
@@ -8,10 +8,23 @@ comments: true
 ---
 <br>
 
-**약속과 성실함을 약속하는 개발자**  
+### 늘 배우는 자세로 언제나 성장하는 개발자  
 
-**꾸준함과 집요합으로 언제나 이룸이 있는 개발자** 
+### 책임감과 성실함으로 약속을 다하는 개발자
+<br>
+<div class="row">
 
-### 깃주소
+<div class="col-md-6">
+    <p> ㅇㅎㅇ나ㅓㅗㄴㄷ퓌시ㅓㅏ높니가퓨ㅗ닏ㄱㅍㄷ갚ㅅㄷ
+    ㄳㅍㄷㄴ교ㅠㄷ뇨ㅠㄴㄷㄱㅍㄴㄷㄱㅍㄴㄷㄱㅍㄱ푠 </p>
+</div>
 
-<a class="btn btn-default" href="https://github.com/kyu05017">Grab your copy now!</a>
+<div class="col-md-6">
+    이름 : 김규석<br>
+    나이 : 만 27살<br>
+    이메일 : kyu05017@naver.com<br>
+    전화번호 : 010-4339-7275
+</div>
+
+</div>
+
