@@ -8,7 +8,7 @@ fullview: true
 <div class="row">
 <h4 class="text-center"> 구연화면</h4>
 <div class="col-md-4">
-    <img src="/assets/ico/mainpage.png"width="80%" />
+    <img src="/assets/ico/mainpage.png" width="80%" />
 </div>
 <div class="col-md-4">
     <img src="/assets/ico/login.png"  width="80%" />
