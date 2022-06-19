@@ -1,16 +1,16 @@
 ---
 layout: post
 title : About Me
-categories: [general, setup, demo]
-tags: [demo, dbyll, dbtek, setup]
+categories: []
+tags: [Me]
 fullview: true
 comments: true  
 ---
 <br>
 
-#### 늘 배우는 자세로 언제나 성장하는 개발자  
+#### :email: 늘 배우는 자세로 언제나 성장하는 개발자  
 
-#### 책임감과 성실함으로 약속을 다하는 개발자
+#### :email: 책임감과 성실함으로 약속을 다하는 개발자
 <br>
 <div class="row">
 
