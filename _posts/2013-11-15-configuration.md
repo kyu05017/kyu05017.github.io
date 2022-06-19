@@ -1,23 +1,19 @@
 ---
 layout: post
-title: Configuration
-categories: [general, setup, demo]
-tags: [demo, dbyll, dbtek, setup]
+title: JSP 마블해윰
+categories: [project]
+tags: [project, JSP, JAVA, MySQl,AWS]
 fullview: true
 ---
-
-In your config file change these settings
-
-{% highlight yaml %}
-title: dbyll
-author:  
-  name: yourname  
-  email: youremail  
-  github: asd123  
-  twitter: asd123  
-  pinterest: asd123  
-  linkedin: asd123  
-  resume: asd123  
-  bio: Your stylish,  minimalist theme!  
-  email_md5: md5ofemail  
-{% endhighlight %}
+<div class="row">
+<h4 class="text-center"> 구연화면</h4>
+<div class="col-md-4">
+    <img src="/assets/ico/mainpage.jpg" class="img-circle" width="80%" />
+</div>
+<div class="col-md-4">
+    <img src="/assets/ico/lgoin.jpg" class="img-circle" width="80%" />
+</div>
+<div class="col-md-4">
+    <img src="/assets/ico/gamepage.jpg" class="img-circle" width="80%" />
+</div>
+</div>
