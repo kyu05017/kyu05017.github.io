@@ -11,7 +11,7 @@ fullview: true
     <img src="/assets/ico/mainpage.jpg" class="img-circle" width="80%" />
 </div>
 <div class="col-md-4">
-    <img src="/assets/ico/lgoin.jpg" class="img-circle" width="80%" />
+    <img src="/assets/ico/login.jpg" class="img-circle" width="80%" />
 </div>
 <div class="col-md-4">
     <img src="/assets/ico/gamepage.jpg" class="img-circle" width="80%" />
