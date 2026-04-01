@@ -3,734 +3,91 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Team Movo</title>
-    <meta
-      name="description"
-      content="Team Movo — mobile, web, tablet experiences with sharp product thinking and clean execution."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <title>404 · Team Movo</title>
+    <meta name="robots" content="noindex" />
     <style>
       :root {
-        --bg: #0d1117;
-        --bg-soft: #131925;
-        --panel: rgba(17, 24, 39, 0.74);
-        --panel-strong: rgba(19, 29, 46, 0.94);
-        --line: rgba(255, 255, 255, 0.08);
-        --text: #f6f2ea;
-        --muted: rgba(246, 242, 234, 0.66);
-        --gold: #f6b84b;
-        --mint: #74f7d6;
-        --rose: #ff8bb6;
-        --shadow: 0 24px 80px rgba(0, 0, 0, 0.34);
-        --radius-xl: 28px;
-        --radius-lg: 22px;
-        --radius-md: 16px;
-        --content: 1200px;
+        --bg: #0f1115;
+        --card: #171a20;
+        --line: rgba(255,255,255,0.08);
+        --text: #f4f1ea;
+        --muted: rgba(244,241,234,0.62);
+        --accent: #f0b24a;
       }
-
-      * {
-        box-sizing: border-box;
-      }
-
-      html {
-        scroll-behavior: smooth;
-      }
-
+      * { box-sizing: border-box; }
       body {
         margin: 0;
         min-height: 100vh;
-        background:
-          radial-gradient(circle at 12% 18%, rgba(246, 184, 75, 0.20), transparent 26%),
-          radial-gradient(circle at 88% 14%, rgba(116, 247, 214, 0.12), transparent 24%),
-          radial-gradient(circle at 74% 78%, rgba(255, 139, 182, 0.16), transparent 28%),
-          linear-gradient(180deg, #0b0f16 0%, #0d1117 36%, #0a0d12 100%);
-        color: var(--text);
-        font-family: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", system-ui, sans-serif;
-        line-height: 1.6;
-        overflow-x: hidden;
-      }
-
-      body::before {
-        content: "";
-        position: fixed;
-        inset: 0;
-        pointer-events: none;
-        background-image:
-          linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
-        background-size: 36px 36px;
-        mask-image: radial-gradient(circle at center, black 22%, transparent 92%);
-        opacity: 0.55;
-      }
-
-      a {
-        color: inherit;
-        text-decoration: none;
-      }
-
-      .wrap {
-        width: min(calc(100% - 32px), var(--content));
-        margin: 0 auto;
-      }
-
-      .nav {
-        position: sticky;
-        top: 0;
-        z-index: 50;
-        backdrop-filter: blur(16px);
-        background: linear-gradient(180deg, rgba(8, 10, 16, 0.86), rgba(8, 10, 16, 0.42));
-        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-      }
-
-      .nav-inner {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 20px;
-        padding: 18px 0;
-      }
-
-      .brand {
-        display: inline-flex;
-        align-items: center;
-        gap: 12px;
-      }
-
-      .brand-mark {
-        width: 42px;
-        height: 42px;
         display: grid;
         place-items: center;
-        border-radius: 14px;
-        background: linear-gradient(135deg, rgba(246, 184, 75, 0.28), rgba(116, 247, 214, 0.18));
-        border: 1px solid rgba(255, 255, 255, 0.09);
-        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12);
-        font-family: "Syne", sans-serif;
-        font-weight: 800;
-        color: #fff3d7;
-      }
-
-      .brand-copy strong,
-      .eyebrow,
-      h1,
-      h2,
-      h3,
-      .cta,
-      .stat-value,
-      .section-tag {
-        font-family: "Syne", sans-serif;
-      }
-
-      .brand-copy strong {
-        display: block;
-        font-size: 1.05rem;
-        letter-spacing: 0.02em;
-      }
-
-      .brand-copy span {
-        display: block;
-        color: var(--muted);
-        font-size: 0.88rem;
-      }
-
-      .nav-links {
-        display: inline-flex;
-        align-items: center;
-        gap: 18px;
-        color: var(--muted);
-        font-size: 0.95rem;
-      }
-
-      .nav-links a:hover {
+        padding: 24px;
+        background:
+          radial-gradient(circle at top, rgba(240,178,74,0.10), transparent 30%),
+          linear-gradient(180deg, #0d1014 0%, #0f1115 100%);
         color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Noto Sans KR", sans-serif;
       }
-
-      .hero {
-        padding: 72px 0 56px;
-      }
-
-      .hero-grid {
-        display: grid;
-        grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.92fr);
-        gap: 26px;
-        align-items: stretch;
-      }
-
-      .hero-card,
-      .panel,
-      .quote,
-      .footer-card {
-        background: var(--panel);
+      .card {
+        width: min(100%, 560px);
+        padding: 32px;
+        border-radius: 24px;
+        background: var(--card);
         border: 1px solid var(--line);
-        border-radius: var(--radius-xl);
-        box-shadow: var(--shadow);
-        backdrop-filter: blur(20px);
+        box-shadow: 0 20px 60px rgba(0,0,0,.35);
+        text-align: center;
       }
-
-      .hero-card {
-        padding: 34px;
-        position: relative;
-        overflow: hidden;
-      }
-
-      .hero-card::after {
-        content: "";
-        position: absolute;
-        right: -60px;
-        top: -60px;
-        width: 220px;
-        height: 220px;
-        border-radius: 50%;
-        background: radial-gradient(circle, rgba(246, 184, 75, 0.18), transparent 70%);
-      }
-
-      .eyebrow {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
+      .badge {
+        display: inline-block;
         padding: 8px 14px;
         border-radius: 999px;
-        background: rgba(255, 255, 255, 0.06);
-        color: #ffe6b2;
-        letter-spacing: 0.06em;
-        font-size: 0.78rem;
+        background: rgba(240,178,74,0.12);
+        color: #ffd892;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: .08em;
         text-transform: uppercase;
       }
-
       h1 {
-        margin: 20px 0 18px;
-        font-size: clamp(3rem, 6vw, 5.7rem);
-        line-height: 0.95;
-        letter-spacing: -0.05em;
+        margin: 18px 0 10px;
+        font-size: clamp(42px, 8vw, 72px);
+        line-height: .95;
       }
-
-      .hero-lead {
-        max-width: 18em;
+      p {
+        margin: 0;
         color: var(--muted);
-        font-size: clamp(1rem, 1.6vw, 1.18rem);
+        font-size: 16px;
+        line-height: 1.7;
       }
-
-      .hero-actions {
+      .actions {
+        margin-top: 24px;
         display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-        margin-top: 28px;
+        justify-content: center;
       }
-
-      .cta {
+      a {
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        gap: 8px;
-        min-height: 52px;
+        min-height: 46px;
         padding: 0 18px;
         border-radius: 999px;
-        border: 1px solid transparent;
-        font-size: 0.97rem;
+        background: var(--accent);
+        color: #2b1b00;
+        text-decoration: none;
         font-weight: 700;
-        transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
-      }
-
-      .cta:hover {
-        transform: translateY(-2px);
-      }
-
-      .cta.primary {
-        background: linear-gradient(135deg, var(--gold), #ffcf77);
-        color: #251600;
-      }
-
-      .cta.secondary {
-        border-color: rgba(255, 255, 255, 0.12);
-        background: rgba(255, 255, 255, 0.04);
-        color: var(--text);
-      }
-
-      .hero-side {
-        display: grid;
-        gap: 18px;
-      }
-
-      .panel {
-        padding: 24px;
-      }
-
-      .section-tag {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        color: #ffd68f;
-        font-size: 0.82rem;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-      }
-
-      .stat-grid {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 14px;
-        margin-top: 18px;
-      }
-
-      .stat {
-        padding: 16px;
-        border-radius: var(--radius-md);
-        background: rgba(255, 255, 255, 0.04);
-        border: 1px solid rgba(255, 255, 255, 0.05);
-      }
-
-      .stat-value {
-        display: block;
-        font-size: 1.75rem;
-        line-height: 1;
-        margin-bottom: 8px;
-      }
-
-      .stat-label {
-        color: var(--muted);
-        font-size: 0.92rem;
-      }
-
-      .quote {
-        padding: 22px 24px;
-      }
-
-      .quote p {
-        margin: 0;
-        font-size: 1.05rem;
-      }
-
-      .quote strong {
-        color: #fff0c8;
-      }
-
-      .section {
-        padding: 22px 0 28px;
-      }
-
-      .section-head {
-        display: flex;
-        justify-content: space-between;
-        align-items: end;
-        gap: 18px;
-        margin-bottom: 18px;
-      }
-
-      .section-head h2 {
-        margin: 0;
-        font-size: clamp(1.8rem, 3vw, 3rem);
-        letter-spacing: -0.04em;
-      }
-
-      .section-head p {
-        max-width: 36rem;
-        margin: 0;
-        color: var(--muted);
-      }
-
-      .service-grid {
-        display: grid;
-        grid-template-columns: repeat(12, minmax(0, 1fr));
-        gap: 16px;
-      }
-
-      .service {
-        grid-column: span 4;
-        min-height: 280px;
-        padding: 24px;
-        border-radius: var(--radius-lg);
-        background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
-        border: 1px solid var(--line);
-        position: relative;
-        overflow: hidden;
-      }
-
-      .service::before {
-        content: "";
-        position: absolute;
-        inset: auto -28px -38px auto;
-        width: 132px;
-        height: 132px;
-        border-radius: 28px;
-        background: linear-gradient(135deg, rgba(255,255,255,0.04), transparent 72%);
-        transform: rotate(18deg);
-      }
-
-      .service:nth-child(1) {
-        background: linear-gradient(180deg, rgba(246,184,75,.15), rgba(255,255,255,.03));
-      }
-      .service:nth-child(2) {
-        background: linear-gradient(180deg, rgba(116,247,214,.13), rgba(255,255,255,.03));
-      }
-      .service:nth-child(3) {
-        background: linear-gradient(180deg, rgba(255,139,182,.14), rgba(255,255,255,.03));
-      }
-
-      .service-num {
-        color: rgba(255, 255, 255, 0.36);
-        font-size: 0.82rem;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-      }
-
-      .service h3 {
-        margin: 18px 0 10px;
-        font-size: 1.65rem;
-        letter-spacing: -0.04em;
-      }
-
-      .service p {
-        margin: 0 0 20px;
-        color: var(--muted);
-      }
-
-      .service ul {
-        margin: 0;
-        padding-left: 18px;
-        color: #f9f5ed;
-      }
-
-      .story-grid {
-        display: grid;
-        grid-template-columns: 1.2fr 0.8fr;
-        gap: 16px;
-      }
-
-      .story-card,
-      .process-card,
-      .footer-card {
-        padding: 26px;
-        border-radius: var(--radius-lg);
-        border: 1px solid var(--line);
-        background: var(--panel-strong);
-      }
-
-      .story-card p,
-      .process-card p,
-      .footer-card p {
-        color: var(--muted);
-      }
-
-      .process-list {
-        display: grid;
-        gap: 14px;
-        margin-top: 18px;
-      }
-
-      .process-step {
-        display: grid;
-        grid-template-columns: 52px 1fr;
-        gap: 14px;
-        align-items: start;
-      }
-
-      .process-step strong {
-        display: grid;
-        place-items: center;
-        width: 52px;
-        height: 52px;
-        border-radius: 16px;
-        background: rgba(255,255,255,.06);
-        border: 1px solid rgba(255,255,255,.08);
-        font-family: "Syne", sans-serif;
-      }
-
-      .footer {
-        padding: 22px 0 70px;
-      }
-
-      .footer-card {
-        display: grid;
-        grid-template-columns: 1.1fr 0.9fr;
-        gap: 24px;
-      }
-
-      .footer-links {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-        margin-top: 18px;
-      }
-
-      .chip {
-        display: inline-flex;
-        align-items: center;
-        min-height: 42px;
-        padding: 0 14px;
-        border-radius: 999px;
-        border: 1px solid rgba(255,255,255,.08);
-        background: rgba(255,255,255,.04);
-        color: var(--text);
-      }
-
-      .footer-note {
-        color: var(--muted);
-        font-size: 0.92rem;
-      }
-
-      @media (max-width: 1100px) {
-        .hero-grid,
-        .story-grid,
-        .footer-card {
-          grid-template-columns: 1fr;
-        }
-
-        .service {
-          grid-column: span 6;
-        }
-      }
-
-      @media (max-width: 760px) {
-        .nav-inner {
-          flex-direction: column;
-          align-items: flex-start;
-        }
-
-        .nav-links {
-          width: 100%;
-          flex-wrap: wrap;
-        }
-
-        .hero {
-          padding-top: 48px;
-        }
-
-        .hero-card,
-        .panel,
-        .story-card,
-        .process-card,
-        .footer-card {
-          padding: 22px;
-        }
-
-        .stat-grid,
-        .service-grid {
-          grid-template-columns: 1fr;
-        }
-
-        .service {
-          grid-column: span 12;
-          min-height: auto;
-        }
-
-        .section-head {
-          align-items: flex-start;
-          flex-direction: column;
-        }
-      }
-
-      @media (max-width: 520px) {
-        .wrap {
-          width: min(calc(100% - 20px), var(--content));
-        }
-
-        h1 {
-          font-size: 2.7rem;
-        }
-
-        .cta {
-          width: 100%;
-        }
-
-        .process-step {
-          grid-template-columns: 44px 1fr;
-        }
-
-        .process-step strong {
-          width: 44px;
-          height: 44px;
-          border-radius: 14px;
-        }
       }
     </style>
   </head>
   <body>
-    <header class="nav">
-      <div class="wrap nav-inner">
-        <a class="brand" href="#top">
-          <span class="brand-mark">M</span>
-          <span class="brand-copy">
-            <strong>Team Movo</strong>
-            <span>mobile · web · tablet</span>
-          </span>
-        </a>
-        <nav class="nav-links">
-          <a href="#services">Capabilities</a>
-          <a href="#approach">Approach</a>
-          <a href="#contact">Contact</a>
-          <a href="/three-line-summary/privacy-policy/">Privacy Policy</a>
-        </nav>
+    <main class="card">
+      <span class="badge">Not Found</span>
+      <h1>404</h1>
+      <p>
+        이 페이지는 현재 비워두었습니다.<br />
+        세줄요약 개인정보처리방침은 아래 링크에서 확인할 수 있습니다.
+      </p>
+      <div class="actions">
+        <a href="/three-line-summary/privacy-policy/">개인정보처리방침 보기</a>
       </div>
-    </header>
-
-    <main id="top">
-      <section class="hero">
-        <div class="wrap hero-grid">
-          <div class="hero-card">
-            <span class="eyebrow">Small team, sharp execution</span>
-            <h1>We build products that move cleanly across every screen.</h1>
-            <p class="hero-lead">
-              Team Movo designs and ships responsive digital products for <strong>mobile</strong>, <strong>web</strong>, and <strong>tablet</strong>.
-              We care about product rhythm, clear UX, and interfaces that feel fast before they even animate.
-            </p>
-            <div class="hero-actions">
-              <a class="cta primary" href="#contact">Start a conversation</a>
-              <a class="cta secondary" href="#services">See how we work</a>
-            </div>
-          </div>
-
-          <div class="hero-side">
-            <div class="panel">
-              <span class="section-tag">Built to travel</span>
-              <div class="stat-grid">
-                <div class="stat">
-                  <span class="stat-value">Mobile</span>
-                  <span class="stat-label">Fast interaction, tight focus, thumb-first flows.</span>
-                </div>
-                <div class="stat">
-                  <span class="stat-value">Web</span>
-                  <span class="stat-label">Clear information architecture and strong visual balance.</span>
-                </div>
-                <div class="stat">
-                  <span class="stat-value">Tablet</span>
-                  <span class="stat-label">Layouts that breathe without wasting space.</span>
-                </div>
-              </div>
-            </div>
-            <div class="quote">
-              <p>
-                <strong>Team Movo</strong> is a compact product team that likes clean systems, elegant details, and release-ready execution.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="services">
-        <div class="wrap">
-          <div class="section-head">
-            <div>
-              <span class="section-tag">Capabilities</span>
-              <h2>One product language, adapted to every device.</h2>
-            </div>
-            <p>
-              We don’t treat responsiveness like a patch. We design each surface intentionally so the same product can feel native on every screen it touches.
-            </p>
-          </div>
-
-          <div class="service-grid">
-            <article class="service">
-              <span class="service-num">01 / Mobile</span>
-              <h3>Focused, tactile mobile UX</h3>
-              <p>
-                Designed for speed, readability, and real usage — not just screenshots.
-              </p>
-              <ul>
-                <li>thumb-friendly flows</li>
-                <li>clear state transitions</li>
-                <li>high-signal UI for daily use</li>
-              </ul>
-            </article>
-
-            <article class="service">
-              <span class="service-num">02 / Web</span>
-              <h3>Responsive web surfaces</h3>
-              <p>
-                Flexible landing pages, product shells, and dashboards with clear hierarchy.
-              </p>
-              <ul>
-                <li>desktop/tablet/mobile breakpoints</li>
-                <li>fast-loading layouts</li>
-                <li>cohesive brand presentation</li>
-              </ul>
-            </article>
-
-            <article class="service">
-              <span class="service-num">03 / Tablet</span>
-              <h3>Balanced multi-pane experiences</h3>
-              <p>
-                Interfaces that use larger screens properly without turning into bloated desktop clones.
-              </p>
-              <ul>
-                <li>split-view thinking</li>
-                <li>comfortable reading and review flows</li>
-                <li>strong spatial hierarchy</li>
-              </ul>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="approach">
-        <div class="wrap story-grid">
-          <div class="story-card">
-            <span class="section-tag">Why Movo</span>
-            <h2>We like products that feel quiet, direct, and ready to ship.</h2>
-            <p>
-              Movo isn’t chasing visual noise. We care more about proportion, momentum, and making the important actions obvious.
-              The goal is simple: products that are pleasant to use on day one and still feel coherent after the fifth update.
-            </p>
-            <p>
-              That means strong foundations, careful naming, consistent interaction patterns, and enough visual personality to be remembered without becoming gimmicky.
-            </p>
-          </div>
-
-          <div class="process-card">
-            <span class="section-tag">Process</span>
-            <div class="process-list">
-              <div class="process-step">
-                <strong>01</strong>
-                <div>
-                  <h3>Shape the product</h3>
-                  <p>Clarify the surface, the audience, and the key action that matters most.</p>
-                </div>
-              </div>
-              <div class="process-step">
-                <strong>02</strong>
-                <div>
-                  <h3>Design the system</h3>
-                  <p>Set the visual logic once, then adapt it properly across mobile, web, and tablet.</p>
-                </div>
-              </div>
-              <div class="process-step">
-                <strong>03</strong>
-                <div>
-                  <h3>Ship and refine</h3>
-                  <p>Release with discipline, then improve through real usage rather than guesswork.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="footer" id="contact">
-        <div class="wrap footer-card">
-          <div>
-            <span class="section-tag">Contact</span>
-            <h2>Let’s build something that earns its place on the home screen.</h2>
-            <p>
-              Team Movo is currently shaping digital products across mobile, web, and tablet. If you want a small team with product taste and shipping discipline, start here.
-            </p>
-            <div class="footer-links">
-              <a class="chip" href="mailto:guggy4595@gmail.com">guggy4595@gmail.com</a>
-              <a class="chip" href="/three-line-summary/privacy-policy/">Privacy Policy</a>
-            </div>
-          </div>
-          <div>
-            <p class="footer-note">
-              Team Movo<br />
-              Responsive by default.<br />
-              Mobile, web, tablet — one coherent product language.
-            </p>
-          </div>
-        </div>
-      </section>
     </main>
   </body>
 </html>
